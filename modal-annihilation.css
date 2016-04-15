@@ -3,3 +3,8 @@
    http://creativecommons.org/licenses/by-nc-sa/4.0 */
 
 @-moz-document domain("thredup.com") { .full-bg-opaque.active { display: none } }
+
+@-moz-document domain("pinterest.com") {
+	.Nags, .ModalManager { display: none }
+	.noScroll { overflow: auto }
+}
