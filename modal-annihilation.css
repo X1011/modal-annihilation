@@ -5,7 +5,7 @@
 @-moz-document domain("boxed.com") { #modal-new.open { display: none } }
 
 @-moz-document domain("pinterest.com") {
-	.Nags, .ModalManager { display: none }
+	.Nags, .unauth .ModalManager { display: none }
 	.noScroll { overflow: auto }
 }
 
