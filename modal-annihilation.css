@@ -2,6 +2,14 @@
    licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
    http://creativecommons.org/licenses/by-nc-sa/4.0 */
 
+@-moz-document domain("goldstar.com") {
+	.modal.not-closeable, .modal-overlay { display: none }
+	.active-modal {
+		overflow: initial !important;
+		position: initial !important;
+	}
+}
+
 @-moz-document domain("boxed.com") { #modal-new.open { display: none } }
 
 @-moz-document domain("pinterest.com") {
