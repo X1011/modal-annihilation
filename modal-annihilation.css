@@ -15,6 +15,9 @@
 @-moz-document domain("pinterest.com") {
 	.Nags, .unauth .ModalManager { display: none }
 	.noScroll { overflow: auto }
+	
+	[data-reactroot] > script + div { display: none }
+	[data-reactroot] > style  + div { position: static !important }
 }
 
 @-moz-document domain("thredup.com") { .full-bg-opaque.active { display: none } }
