@@ -16,7 +16,11 @@
 	.Nags, .unauth .ModalManager { display: none }
 	.noScroll { overflow: auto }
 	
-	[data-reactroot] > script + div { display: none }
+	[data-reactroot] > script + div,
+	.FullPageModal__scroller,
+	[data-test-giftwrap] {
+		display: none;
+	}
 	[data-reactroot] > style  + div { position: static !important }
 }
 
