@@ -2,6 +2,10 @@
    licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
    http://creativecommons.org/licenses/by-nc-sa/4.0 */
 
+@-moz-document domain("facebook.com") {
+	#pagelet_growth_expanding_cta { display: none }
+}
+
 @-moz-document domain("goldstar.com") {
 	.modal.not-closeable, .modal-overlay { display: none }
 	.active-modal {
