@@ -2,6 +2,12 @@
    licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
    http://creativecommons.org/licenses/by-nc-sa/4.0 */
 
+@-moz-document domain("hackerrank.com") {
+	.auth-modal {display: none}
+	html.scroll-hidden body {overflow-y: auto}
+	html.scroll-hidden.pad-adjustment body {padding-right: 0}
+}
+
 @-moz-document domain("facebook.com") {
 	#pagelet_growth_expanding_cta { display: none }
 }
